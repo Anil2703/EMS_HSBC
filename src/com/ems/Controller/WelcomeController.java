@@ -32,6 +32,7 @@ public class WelcomeController {
 	}
 		
 	}
+	//Test messages
 	
 	/*Method to add an Employee*/
 	@RequestMapping(value="/Registration" ,method=RequestMethod.GET)
