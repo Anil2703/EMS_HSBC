@@ -34,7 +34,7 @@ public class WelcomeController {
 	}
 	//Test messages
 	
-	/*Method to add an Employee*/
+	/*Method to add an Employee for HSBC Organization*/
 	@RequestMapping(value="/Registration" ,method=RequestMethod.GET)
 	public String addEmployee(Model model,@RequestParam("EmployeeName") String EmployeeName,
 										  @RequestParam("Nationality") String Nationality,
